@@ -1,0 +1,72 @@
+h1 { 
+	color: blue;
+	font-style: italic; 
+	text-align: center;
+}
+
+.cuerpo {
+	background: #fafafd;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.imagenCentrada {
+	text-align: center; 
+}
+
+.imagen { 
+	border: 1px dashed blue;
+}
+
+.parrafo {
+	color: #333377;
+	font-size: 14px;
+	text-align: center; 
+}
+
+.tablaCentrada  Table{
+	margin: 0 auto;
+}
+
+.classTabla {	
+	border: 2px groove #C8C8F2;
+	color: #333377;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 3px;
+	padding: 6px;
+	white-space: nowrap;	
+} 
+
+.classCabecera {
+	color: #FFFFFF;
+	background: #AAAAFF;
+	border: 2px groove #C8C8F2;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding: 6px;
+	white-space: nowrap;
+} 
+
+.precio {
+	text-align: right; 
+}
+
+.anchura {
+	width: 70%;
+}
+
+.pedido {
+	color: #333377;
+	font-weight: bold;
+	margin-left: 500px;
+	text-decoration: underline;	
+}
+
+.formulario {
+	text-align: center; 
+}
+
+.boton {
+	margin-top: 20px;
+}

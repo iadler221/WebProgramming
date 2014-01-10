@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+		<title>Jeans World</title>
+	
+		<link href="estilo.css" rel="stylesheet"  type="text/css"/>
+
+	
+	</head>
+  
+	<body class="cuerpo">
+		<h1>&#126; Jeans World &#126;</h1>
+		
+		</br></br>
+		
+		<div class="imagenCentrada">
+			<img class="imagen" src="jeans.jpg" alt="Jeans desgastados"/>
+		</div>
+			
+		<p class="parrafo">Jeans desgastados.</p>
+		<p class="parrafo">Talla M. 20€.</p>
+		
+		</br></br>
+		
+		<div class="tablaCentrada">
+			<table class="classTabla">  
+				<caption><strong>Modelos diponibles</strong></caption>
+				<tr class="classCabecera">
+					<th class="anchura">Modelo</th>
+					<th>Precio</th>
+				</tr>  
+				<tr>
+					<td class="anchura">Desgastados</td>
+					<td class="precio">20€</td>
+				</tr>  
+				<tr>
+					<td class="anchura">Lisos</td>
+					<td class="precio">20€</td>
+				</tr>
+				<tr>
+					<td class="anchura">Piratas</td>
+					<td class="precio">15€</td>
+				</tr> 
+				<tr>
+					<td class="anchura">Con dobladillo</td>
+					<td class="precio">35€</td>
+				</tr>
+				<tr>
+					<td class="anchura">Bordados</td>
+					<td class="precio">50€</td>
+				</tr>
+			</table>
+		</div>
+		
+		</br></br>
+		
+		<p class="pedido"><strong>Realizar pedido</strong></p>
+		
+		<form class="formulario" action="/cgi-bin/comprar.cgi" method="post">
+				
+			<div>
+				<select name="modelo">
+					<option value=1>Desgastados</option>
+					<option value=2>Lisos</option>
+					<option value=3>Piratas</option>
+					<option value=4>Con dobladillo</option>
+					<option value=5>Bordados</option>
+				</select>
+				
+				<select name="talla">
+					<option value=1>XS</option>
+					<option value=2>S</option>
+					<option value=3>M</option>
+					<option value=4>L</option>
+					<option value=5>XL</option>
+				</select>
+				
+				<select name="cantidad">
+					<option value=1>Cant.: 1</option>
+					<option value=2>Cant.: 2</option>
+					<option value=3>Cant.: 3</option>
+					<option value=4>Cant.: 4</option>
+					<option value=5>Cant.: 5</option>
+				</select>
+			</div>
+		  
+			<div class="boton">
+				<input type="submit" name="comprar" value="Comprar">
+			</div>	
+			
+		</form>
+
+	</body> 
+</html>
+

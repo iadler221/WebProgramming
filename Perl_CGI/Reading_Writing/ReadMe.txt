@@ -1,0 +1,1 @@
+This exercise consists of reading a file and generating a web page with its contents using Perl and CGI.
