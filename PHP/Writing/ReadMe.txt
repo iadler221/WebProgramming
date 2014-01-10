@@ -1,0 +1,1 @@
+This exercise consists of running a PHP program and writing the date and time of its execution in a file.
