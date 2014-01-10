@@ -1,0 +1,1 @@
+With formNotas.html and procesarNotas.php We store information in a database and with recuperar.php we retrieve it.
